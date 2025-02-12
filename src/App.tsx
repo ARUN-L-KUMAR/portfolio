@@ -91,7 +91,7 @@ function App() {
         Contact Me
       </a>
       <a 
-  href="/Resume.pdf" 
+  href={`${import.meta.env.BASE_URL}Resume.pdf`} 
   download="Arun_Kumar_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
