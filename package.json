@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://badvibesarun.github.io/portfolio/",
   "scripts": {
-    "dev": "vite",
+    "dev": "node ./node_modules/vite/bin/vite.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -13,13 +13,17 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.6",
+    "aos": "^2.3.4",
     "axios": "^1.7.9",
+    "framer-motion": "^12.20.2",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/aos": "^3.0.7",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
