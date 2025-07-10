@@ -855,7 +855,7 @@ function App() {
                   <a href="https://github.com/arun-l-kumar" target="_blank" rel="noopener noreferrer" className="mt-6 ml-4 hover:text-blue-500 transition-transform hover:scale-125 animate-social">
                     <Github size={24} />
                   </a>
-                  <a href="https://www.linkedin.com/in/badvibesarun" target="_blank" rel="noopener noreferrer" className="mt-6 ml-4 hover:text-blue-500 transition-transform hover:scale-125 animate-social">
+                  <a href="https://www.linkedin.com/in/arun-l-kumar" target="_blank" rel="noopener noreferrer" className="mt-6 ml-4 hover:text-blue-500 transition-transform hover:scale-125 animate-social">
                     <Linkedin size={24} />
                   </a>
                   <a href="https://www.behance.net/badvibesarun" target="_blank" rel="noopener noreferrer" className="mt-6 ml-4 hover:text-blue-500 transition-transform hover:scale-125 animate-social">
